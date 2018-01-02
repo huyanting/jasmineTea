@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="jumbotron">
+        <h1>Hello, world!</h1>
+        <p>Welcome to hyting's websit!</p>
+        <p><a class="btn btn-primary btn-lg" href="https://github.com/huyanting/jasmineTea" role="button">Learn more</a></p>
+    </div>
+    <div class="jumbotron">
+        <div class="video-wrapper">
+            <video class="container" id="h5_video" poster="https://source.niohome.com//MyNextEv/InterSpace/Video/Picture/Show/NIO_SXSW_HIGHLIGHTS.jpg"
+                preload="auto" 
+                webkit-playsinline="true" /*这个属性是ios 10中设置可以让视频在小窗内播放，也就是不是全屏播放*/  
+                playsinline="true" /*IOS微信浏览器支持小窗内播放*/ 
+                x-webkit-airplay="allow" 
+                x5-video-player-type="h5" /*启用H5播放器,是wechat安卓版特性*/
+                x5-video-player-fullscreen="true" /*全屏设置，设置为 true 是防止横屏*/
+                x5-video-orientation="portraint" //播放器支付的方向， landscape横屏，portraint竖屏，默认值为竖屏
+            >
+                <source src="https://source.niohome.com//MyNextEv/InterSpace/Video/NIO_SXSW_HIGHLIGHTS.mp4" type="video/mp4">
+            </video>
+            <!-- <div>
+                <h4 class="loading">Loading......</h4>
+            </div> -->
+            <div class="step step1">
+                <button id="startNIO">开启NIO</button>
+            </div>
+            <div class="step step2">
+                <button id="pushNIO">点击蓄力3秒</button>
+            </div>
+            <div class="step step3">
+                <button id="comeNIO">NIO is coming</button>
+            </div>
+        </div>
+    </div>
+</div>

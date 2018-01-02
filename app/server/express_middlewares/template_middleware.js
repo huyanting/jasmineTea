@@ -13,7 +13,6 @@ const util = require('util');
 const utils = require('../utils');
 const vendor = require('../vendor');
 const version = require('../../version.json').version;
-const backgroudImage = '/dist/imgs/bg.jpg';
 
 exports.register = (app, serverConfigs, express) => {
     app.locals.version = version;
@@ -23,8 +22,7 @@ exports.register = (app, serverConfigs, express) => {
             locals: {
                 previewClass: 'backgroundImg'
             },
-            backgroudImage: backgroudImage,
-            viewName: 'app'
+            viewName: 'container'
         });
     });
 };
